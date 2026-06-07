@@ -1,4 +1,4 @@
-# Web ERP — Multi-Tenant Meeting & CRM Platform
+﻿# Web ERP - Multi-Tenant Meeting & CRM Platform
 
 [![Django](https://img.shields.io/badge/Django-REST-092E20?logo=django&logoColor=white)](https://www.djangoproject.com)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://python.org)
@@ -12,7 +12,7 @@ A multi-tenant meeting management and customer relationship (CRM) application bu
 
 ## Features
 
-- Multi-tenant structure — each `Company` owns its own users and data
+- Multi-tenant structure - each `Company` owns its own users and data
 - Custom user model (`CustomUser`) built on `AbstractUser` with a custom `UserManager`
 - Person (`Person`) and meeting (`Meeting`) management
 - Storage of meeting analysis results (`MeetingDescription`: emotion, age, gender, accuracy score)
@@ -34,7 +34,7 @@ A multi-tenant meeting management and customer relationship (CRM) application bu
 web_erp/
 ├── manage.py
 ├── web_erp/          # Django project settings (settings, urls, wsgi)
-├── api/              # REST API app — models, views, migrations
+├── api/              # REST API app - models, views, migrations
 │   ├── models.py     # Company, CustomUser, Person, Meeting, MeetingDescription
 │   ├── views.py
 │   └── urls.py
@@ -82,11 +82,11 @@ npm run build
 
 ## Data Model (overview)
 
-- **Company** — Company information (subscription date, phone, etc.)
-- **CustomUser** — Custom user model tied to a company
-- **Person** — A person attending a meeting
-- **Meeting** — Meeting record linking company, user and person
-- **MeetingDescription** — Meeting analysis results (emotion, age, gender, accuracy)
+- **Company** - Company information (subscription date, phone, etc.)
+- **CustomUser** - Custom user model tied to a company
+- **Person** - A person attending a meeting
+- **Meeting** - Meeting record linking company, user and person
+- **MeetingDescription** - Meeting analysis results (emotion, age, gender, accuracy)
 
 ## License
 
