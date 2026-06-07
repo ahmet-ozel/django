@@ -32,7 +32,7 @@ class CustomUser(AbstractUser):
 
     def __str__(self):
         return self.username
-    
+
 class Person(models.Model):
     person_tc = models.CharField(max_length=11, primary_key=True)
     person_name = models.CharField(max_length=50, null=True, blank=True)

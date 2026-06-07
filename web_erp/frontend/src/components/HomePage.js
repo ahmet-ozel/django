@@ -22,7 +22,7 @@ export default class HomePage extends Component {
             <p>ANASAYFAYA HOŞGELDİN İBİNE ANAN</p>
           </Route>
           <Route path="/accounts/profile/" component={Dashboard} />
-          
+
         </Switch>
       </Router>
     );
